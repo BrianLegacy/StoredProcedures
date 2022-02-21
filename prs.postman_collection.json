@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "96913fcf-36e4-4040-8ab3-d438c4f97585",
+		"name": "prs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:4000/studentss",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"names\": \"poi\",\r\n        \"email\": \"njko@email\",\r\n        \"password\": \"@olkord\",\r\n        \"project\": \"@prgct\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/studentss",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"studentss"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/studentss",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/studentss",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"studentss"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/studentss/1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"names\": \"yioppi\",\r\n        \"email\": \"nkopO@email\",\r\n        \"password\": \"@ooxxcd\",\r\n        \"project\": \"@nsfggct\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:4000/studentss/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"studentss",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/studentss/1 ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/studentss/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"studentss",
+						"1"
+					]
+				},
+				"description": "get specific"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:4000/studentss/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/studentss/2",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"studentss",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
